@@ -16,7 +16,7 @@ Then run:\
 ## API methods
 
 `GET api/distance/{from}/{to}` - returns the distance between airports in miles.\
-Where `from` and `to` IATA are the code of airport.\
+Where `from` and `to` are IATA code of airport.\
 For example, the distance between Amsterdam Airport Schiphol and Sheremetyevo International Airport:\
 `http://localhost:5005/api/distance/AMS/SVO`\
 Will return result in miles\
