@@ -11,7 +11,7 @@ And run following command:\
 \
 Then run:\
 \
-`dotnet run --urls=http://localhost:5005/`\
+`dotnet run --urls=http://localhost:5005/`
 
 ## API methods
 
