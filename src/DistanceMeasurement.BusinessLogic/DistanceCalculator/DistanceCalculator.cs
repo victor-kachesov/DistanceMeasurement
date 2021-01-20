@@ -6,7 +6,7 @@ namespace DistanceMeasurement.BusinessLogic.DistanceCalculator
 {
     public class DistanceCalculator : IDistanceCalculator
     {
-        private const double EARTH_RADIUS = 6372795;
+        private const double EARTH_RADIUS = 3958.8; // miles
 
         public double Calculate(double latD1, double lonD1, double latD2, double lonD2)
         {

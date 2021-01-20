@@ -26,7 +26,7 @@ namespace DistanceMeasurement.BusinessLogic.UnitTests
             double distance = _distanceCalculator.Calculate(fromLat, fromLon, toLat, toLon);
 
             // Assert
-            Assert.Equal(10010362.98, distance, 2);
+            Assert.Equal(6218.47, distance, 2);
         }
 
         [Fact]
@@ -42,7 +42,7 @@ namespace DistanceMeasurement.BusinessLogic.UnitTests
             double distance = _distanceCalculator.Calculate(dmeLat, dmeLon, svoLat, svoLon);
 
             // Assert
-            Assert.Equal(68431.51, distance, 2);
+            Assert.Equal(42.51, distance, 2);
         }
         
         [Fact]
@@ -58,7 +58,7 @@ namespace DistanceMeasurement.BusinessLogic.UnitTests
             double distance = _distanceCalculator.Calculate(amsLat, amsLon, jfkLat, jfkLon);
 
             // Assert
-            Assert.Equal(5849525.21, distance, 2);
+            Assert.Equal(3633.74, distance, 2);
         }
     }
 }
